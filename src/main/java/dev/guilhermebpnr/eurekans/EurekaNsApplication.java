@@ -1,0 +1,15 @@
+package dev.guilhermebpnr.eurekans;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class EurekaNsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(EurekaNsApplication.class, args);
+	}
+
+}
